@@ -1,0 +1,9 @@
+food = "sushi"
+is_delicious = true
+food = "broccoli"
+num2 = 5
+num7 = 10
+quotient = num7 / num2
+songs = ["wagon wheel", "walk the line"]
+songs.shift
+p food.length
