@@ -1,0 +1,14 @@
+tableOneBill -
+
+attributes
+mealCost 5.27
+tip .50
+total 5.77
+is_paid true
+server "Sarah"
+
+methods
+calculate_tip (5.27 * %) tip = .50
+calulate_total (5.27 + .50) total = 5.77
+pay_bill (is_paid = true)
+pay_server (transfer tip to Sarah)
