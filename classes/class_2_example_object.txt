@@ -1,0 +1,12 @@
+instance - TableOne
+
+attributes -
+numPersons = 3
+numSeats = 2
+is_clean = false
+is_served = true
+
+add_remove_persons (numPersons + 1) numPersons = 4
+add_remove_seats (numSeats + 2) numSeats = 4
+clean_table(is_clean = true, is_served = false)
+serve_table(is_clean = false, is_served = true)
