@@ -1,0 +1,12 @@
+class - Table
+
+attributes -
+numPersons (integer)
+numSeats (integer)
+is_clean (boolean)
+is_served (boolean)
+
+add_remove_persons (adds or removes people from a table)
+add_remove_seats (takes away a seat or adds a seat to a table, which means numPersons can be bigger or must be smaller)
+clean_table (Changes is_clean to true and served to false)
+serve_table (sets is_served to true and is_clean to false)
