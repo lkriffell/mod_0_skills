@@ -1,14 +1,15 @@
 class - Bill
 
 attributes -
-mealCost (float)
+meal_cost (float)
 tip (float)
 total (float)
 is_paid (boolean)
 server (string)
 
 methods -
-calulate_tip - this method takes a percent of the mealCost and sets it to tip
-calulate_total - this method adds up the mealCost and tip to create a total
+calulate_tip - this method takes a percent of the meal_cost and sets it as tip
 pay_bill - this method checks if the bill is paid and sets is_paid equal to true or false
 pay_server - this method takes the tip and transfers the money to whoever is the server
+set_server - This method sets the server attribute to the servers name
+set_total - This methods adds up the meal_cost and tip to create the total
